@@ -1,0 +1,85 @@
+body{
+background-color:#333;
+margin:0;
+}
+.nav {
+  overflow: hidden;
+  background-color: black;
+  width:100%;
+}
+.nav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 25px 20px;
+  text-decoration: none;
+  font-weight:300%;
+}
+.nav a:hover {
+  background-color:DodgerBlue;
+  color: black;
+}
+.main{
+text-align:center;
+color:white;
+margin:0;
+}
+.main p{
+font-size:25px;
+color:white;
+text-align:center;
+}
+.main iframe{
+padding-top:20px;
+}
+.image-style{
+margin:10px 0px 20% 0px;
+}
+.image-style .para{
+color:DodgerBlue;
+text-align:center;
+font-size:30px;
+}
+.table-style{
+margin:0px 0px 20% 0px;
+}
+#table{
+width:50%;
+height:50%;
+background-color:grey;
+color:white;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding:10px;
+}
+.list-style{
+margin:10% 0px 20% 0px;
+}
+.list-style .para1{
+color:DodgerBlue;
+font-size:30px;
+font-weight:300px;
+text-align:center;
+}
+.heading{
+color:white;
+}
+.list-style .colors{
+color:white;
+}
+.form-style{
+box-shadow:7px 10px 15px grey;
+opacity:0.8;
+width:500px;
+height:500px;
+background:#fff;
+color:#000;
+left:50%;
+position:absolute;
+transform:translate(-50%,-50%);
+box-sizing:border-box;
+margin-top:10%;
+}

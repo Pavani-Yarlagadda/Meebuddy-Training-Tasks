@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<title>HTML WEBPAGE</title>
+<meta charset="UTF-8">
+<meta name="description" content="TASK-01">
+<meta name="keywords" content="HTML">
+<meta name="author" content="YP">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="nav">
+<a href="#main">HOME</a>
+<a href="#images">IMAGES</a>
+<a href="#tables">TABLES</a>
+<a href="#lists">LISTS</a>
+<a href="#forms">FORM</a>
+</div>
+
+<div class="main" id="main">
+<p title='I'm a tooltip'><i>This webpage is designed using all <mark title='marked text'>HTML TAGS</mark>!!!!!</i></p>
+<bdo dir="rtl"><q title="bdo tag">Always Trying to be best version of mine..</q></bdo>
+<br>
+<iframe src="C:/Users/PavaniY/Desktop/TASK_MEEBUDDY/demo_iframe.htm" style="border:none;" height="400" width="500" title="IFRAME TAG"></iframe>
+<br><br><br>
+</div>
+<section>
+<div class="image-style" id="images">
+<p class="para">Images Section</p><hr><br>
+<center><img src="C:/Users/PavaniY/Pictures/lapy.webp" alt="A girl with lapppy&cam" width="400px" height="400px"></img>
+<img src="C:/Users/PavaniY/Pictures/happy.jpg" alt="Quote" style="width:400px;height:400px;"></img></center>
+</div>
+</section>
+<div class="table-style" id="tables">
+<center>
+<table id="table">
+  <caption style="color:DodgerBlue;font-size:30px;margin-bottom:15px;"><b>-Details-</b></caption>
+  <tr>
+    <th colspan='2'>Fullname</th>
+    <th>Age</th> 
+    <th>Education</th>
+  </tr>
+  <tr>
+    <td rowspan='3'>Yarlagadda</td>
+    <td>Pavani</td>
+    <td>19</td>
+    <td>B-tech</td>
+  </tr>
+  <tr>
+    <td>Pallavi</td>
+    <td>17</td>
+    <td>Inter</td>
+  </tr>
+  <tr>
+    <td>Dimpu</td>
+    <td>2</td>
+    <td>Nill</td>
+  </tr>
+</table>
+</center>
+</div>
+<!-- -LISTS- ----------------------------------------------------->
+<div class="list-style" id="lists">
+<p class="para1"> -LISTS- </p>
+<div style="border:2px solid blue;">
+<h2 class="heading">An Unordered HTML List of Front-end Languages</h2>
+<ul style="list-style-type:square;">
+<li class="colors">html</li>
+<li class="colors">css</li>
+<li class="colors">Javascript</li>
+<li class="colors">bootsrap</li>
+</ul></div>
+
+<div style="border:2px solid blue;">
+<h2 class="heading">An Ordered HTML List of Back-end Languages</h2>
+<ol type='i'>
+<li class="colors">python</li>
+<li class="colors">php</li>
+<li class="colors">mysql</li>
+</ol></div>
+
+<div style="border:2px solid blue;">
+<h2 class="heading">A Description List of all Languages</h2>
+<dl>
+  <dt class="colors">HTML</dt>
+  <dd class="colors">- Hyper Text Markup Lanuage</dd>
+  <dt class="colors">CSS</dt>
+  <dd class="colors">- Cascading Style Sheets</dd>
+</dl></div>
+</div>
+<!-- ------------------------- FORMS ----------------------------------------- -->
+<div class="form-style" id="forms">
+<h1 style='color:black;'><b>Html FORM</b></h1>
+<form action='#' target='_blank' mathod='get/post'>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="pavani" required><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="yarlagadda" required>
+  <!--#############radio############ -->
+<br>
+  <label>Gender:</label>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label>
+  <span><input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label></span>
+  <span><input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label></span><br>
+   <!--#############checkbox############ -->
+  <label>Subject:</label>
+  <span><input type="checkbox" id="subject1" name="sub1" value="maths">
+  <label for="subject1">Maths</label>
+  <input type="checkbox" id="subject2" name="sub22" value="physics">
+  <label for="subject2">Physics</label>
+  <input type="checkbox" id="subject3" name="sub3" value="chemistry">
+  <label for="subject3">Chemistry</label></span><br>
+  <input type="submit" value="Submit">
+</form>
+</html>
